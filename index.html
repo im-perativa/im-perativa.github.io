@@ -23,6 +23,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- photoswipe link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe.css">
+  <link rel="stylesheet" href="./assets/css/photoswipe-dynamic-caption-plugin.css">
+
 </head>
 
 <body>
@@ -42,13 +47,13 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="./assets/images/my-avatar.png" alt="Muhammad Luqman" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Muhammad Luqman">Muhammad Luqman</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">System Administrator/Data Engineer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -74,7 +79,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:im.imperativa@gmail.com" class="contact-link">im.imperativa@gmail.com</a>
             </div>
 
           </li>
@@ -82,13 +87,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+              <ion-icon name="school-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Phone</p>
+              <p class="contact-title">Education</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="" class="contact-link">Computational Statistics</a>
             </div>
 
           </li>
@@ -96,13 +101,13 @@
           <li class="contact-item">
 
             <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+              <ion-icon name="code-outline"></ion-icon>
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title">Language</p>
 
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <a href="" class="contact-link">SQL, Python, R</a>
             </div>
 
           </li>
@@ -116,7 +121,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Jakarta, Indonesia</address>
             </div>
 
           </li>
@@ -128,20 +133,8 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.linkedin.com/in/imperativa/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
 
@@ -181,14 +174,6 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
         </ul>
 
       </nav>
@@ -209,17 +194,15 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            System Administrator/Data Engineer graduated from Computational Statistics Program under Statistics
+            Indonesia. I was given the opportunity to directly work in the Campus as Big Data/Machine Learning
+            Infrastructure Engineer, Data Scientist, and System Administrator in both Linux and Windows.
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            I have worked on several Data Engineer/Data Science
+            project with Statistics Indonesia and other government institution, resulted in publication on National and
+            International media.
           </p>
         </section>
 
@@ -237,15 +220,15 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="./assets/images/icon-data.svg
+                " alt="data icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+                <h4 class="h4 service-item-title">Data Science</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                  From web scraping, data analysis, machine learning, to dashboard visualization.
                 </p>
               </div>
 
@@ -254,14 +237,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-server.svg" alt="server icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">System Administrator</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Server virtualization, remote computer laboratory, Active Directory integration.
                 </p>
               </div>
 
@@ -270,14 +253,15 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon-database.svg" alt="database icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+                <h4 class="h4 service-item-title">Data Engineering</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
+                  Google Cloud Engineer for cloud project and on premise campus infrastructure for student’s thesis
+                  focussed in big data and machine learning.
                 </p>
               </div>
 
@@ -286,14 +270,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon-web.svg" alt="web icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
+                <h4 class="h4 service-item-title">Web/Database Administrator</h4>
                 <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
+                  Administrator for dozens of web and database hosting with various technology like Apache, Nginx,
+                  MySQL and PostgreSQL.
                 </p>
               </div>
 
@@ -302,155 +286,6 @@
           </ul>
 
         </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
 
         <!--
           - clients
@@ -463,41 +298,45 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              <a href="https://https://statistics.coconutcommunity.org/" target="_blank">
+                <img src="./assets/images/client-apccsec.png" alt="International Coconut Community"
+                  title="International Coconut Community">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://volantis.io/" target="_blank">
+                <img src="./assets/images/client-volantis.png" alt="Volantis.io" title="Volantis.io">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://bps.go.id/" target="_blank">
+                <img src="./assets/images/client-bps.png" alt="Statistics Indonesia" title="Statistics Indonesia">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://bigdata.stis.ac.id/" target="_blank">
+                <img src="./assets/images/client-stis.png" alt="STIS Polytechnic of Statistics"
+                  title="STIS Polytechnic of Statistics">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                <img src="./assets/images/client-kementan.png" alt="Ministry of Agriculture Indonesia"
+                  title="Ministry of Agriculture Indonesia">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              <a href="https://badanbahasa.kemdikbud.go.id/" target="_blank">
+                <img src="./assets/images/client-kemdikbud.png"
+                  alt="Ministry of Education, Culture, Research, and Technology Indonesia"
+                  title="Ministry of Education, Culture, Research, and Technology Indonesia">
               </a>
             </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
           </ul>
 
         </section>
@@ -532,41 +371,13 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">STIS Polytechnic of Statistics &nbsp;<small>&nbsp;3.58
+                  GPA&nbsp;</small></h4>
 
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
+              <span>2014 — 2018</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                Bachelor of Applied Science, Computational Statistics Program
               </p>
 
             </li>
@@ -579,7 +390,7 @@
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase-outline"></ion-icon>
             </div>
 
             <h3 class="h3">Experience</h3>
@@ -589,44 +400,116 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Data Engineer &nbsp;<small>&nbsp;Indonesia Language Development and
+                  Fostering Agency&nbsp;</small></h4>
 
-              <span>2015 — Present</span>
+              <span>2022 — now</span>
 
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+              <p class="timeline-text">Mobile data collection and data processing system for national/local language
+                research
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">Infrastructure Engineer &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small>
+              </h4>
 
-              <span>2013 — 2015</span>
+              <span>2021 — now</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+              <ul>
+                <li class="timeline-detail">Distributed server virtualization solution</li>
+                <li class="timeline-detail">Campus infrastructure and environment for student’s thesis focussed in AI
+                </li>
+                <li class="timeline-detail">Remote computer laboratory system</li>
+              </ul>
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Web designer</h4>
+              <h4 class="h4 timeline-item-title">System Administrator &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small></h4>
 
-              <span>2010 — 2013</span>
+              <span>2020 — now</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+              <ul>
+                <li class="timeline-detail">Database administrator for College Admission System</li>
+                <li class="timeline-detail">Domain hosting manager using Virtualmin with dozens of thesis website</li>
+                <li class="timeline-detail">Active directory and GPO manager</li>
+              </ul>
               </p>
 
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Engineer &nbsp;<small>&nbsp;Indonesian Center for Agricultural
+                  Socioeconomic and Policy Studies&nbsp;</small></h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">Mobile data collection system for PATANAS research</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist/Data Engineer &nbsp;<small>&nbsp;STIS Polytechnic of
+                  Statistics&nbsp;</small></h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">
+                  Student and lecturer data analysis
+                </li>
+                <li class="timeline-detail">
+                  Teaching Assistant for Linear Algebra, Introduction to Probability Theory and Big Data
+                </li>
+                <li class="timeline-detail">
+                  Deploy and managing campus website for Big Data projects
+                </li>
+              </ul>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist/Data Engineer &nbsp;<small>&nbsp;Statistics
+                  Indonesia&nbsp;</small></h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+              <ul>
+                <li class="timeline-detail">
+                  Web scraper and data analyst for research project of E Commerce and Travel Agency in Indonesia
+                </li>
+                <li class="timeline-detail">
+                  Trainer for ASEAN Regional Workshop on Big Data for Enhancing Official Statistics
+                </li>
+              </ul>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer &nbsp;<small>&nbsp;International Coconut
+                  Community&nbsp;</small></h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">Data entry and dynamic visualization/tabulation website developer for
+                International Coconut
+                Community
+              </p>
             </li>
 
           </ol>
@@ -642,52 +525,59 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
+                <h5 class="h5">Data Science</h5>
                 <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
+              <h6 class="h6">Python, R, Tableau, Google Data Studio</h6>
 
             </li>
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
+                <h5 class="h5">Infrastructure Engineer</h5>
+                <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+                <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
+              <h6 class="h6">Linux/Windows Server Virtualization, Web Server(Apache/Nginx), Database(MySQL, PostgreSQL),
+                Google Cloud Platform
+              </h6>
 
             </li>
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
+                <h5 class="h5">Data Engineer</h5>
                 <data value="90">90%</data>
               </div>
 
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
+              <h6 class="h6">Web Crawling/Scraping, ETL, SQL, Big Query</h6>
 
             </li>
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">Web Developer</h5>
+                <data value="60">60%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
+              <h6 class="h6">PHP, JQuery
+              </h6>
 
             </li>
 
@@ -714,463 +604,338 @@
         <section class="projects">
 
           <ul class="filter-list">
-
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Infrastructure Engineer - System Administrator</button>
             </li>
-
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Data Science - Data Engineer</button>
             </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
           </ul>
 
           <div class="filter-select-box">
-
             <button class="filter-select" data-select>
-
               <div class="select-value" data-selecct-value>Select category</div>
-
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
               </div>
-
             </button>
 
             <ul class="select-list">
-
               <li class="select-item">
                 <button data-select-item>All</button>
               </li>
-
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Infrastructure Engineer - System Administrator</button>
               </li>
-
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Data Science - Data Engineer</button>
               </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
             </ul>
-
           </div>
 
-          <ul class="project-list">
+          <ul class="project-list" id="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item
+              data-category="infrastructure engineer - system administrator">
+              <a href="./assets/images/project-ovirt.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-ovirt.jpg" alt="ovirt" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Distributed Server Virtualization</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Infrastructure Engineer</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    On premise distributed server virtualization solution using open source <strong>oVirt</strong>
+                    project. The
+                    solution built using three bare metal server (RedHat Linux), two network attached storage
+                    (NFS/iSCSI), terabytes of RAM and storage. The ecosystem is provided with automatic backup solution
+                    for choosen out of dozens VM hosted there to provide quick disaster recovery scenario.
+                    <br><br>
+                    Integrated with Active Directory, user can automatically login to Windows VM created there.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item
+              data-category="infrastructure engineer - system administrator">
+              <a href="./assets/images/project-remotelab.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project-remotelab.jpg" alt="remote computer laboratory" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Remote Computer Laboratory</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Infrastructure Engineer</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Deploying campus remote computer laboratory using <strong>Apache Guacamole</strong> in response to
+                    Covid-19 Safety Protocol. Using this project, both student and lecturer can access the computer
+                    remotely
+                    from their browser without installing any plugins/software. The lab consist of ~80 computers with
+                    Active Directory integration.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item active" data-filter-item
+              data-category="infrastructure engineer - system administrator">
+              <a href="./assets/images/project-virtualmin.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/project-virtualmin.jpg" alt="virtualmin" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Domain Hosting Manager</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">System Administrator</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Managing hundreds of student/lecturer/campus web and database using open source virtual web
+                    hosting
+                    control panel <strong>Virtualmin</strong>. Each domain can specify whether PHP, NodeJS, Python,
+                    etc as their backend language and
+                    pick database (MySQL, PostgreSQL, etc) needed without interfering each other. The system also
+                    provide daily automatic domain backup and SSL configuration for easy web hosting for student and
+                    lecturer.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="data science - data engineer">
+              <a href="./assets/images/project-tableau.gif" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/project-tableau.gif" alt="e commerce research" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Data Visualization with Tableau</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Data Science</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualizing the growth and distribution of E commerce in Indonesia using millions of scraped data of
+                    online shop
+                    website from 2015 to 2019
+                    using <strong>Tableau</strong> and <strong>BigQuery</strong>.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item active" data-filter-item
+              data-category="infrastructure engineer - system administrator">
+              <a href="./assets/images/project-gcp.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-gcp.jpg" alt="gcp" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Application Hosting on GCP</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Infrastructure Engineer</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Deploy and manage college admission system on <strong>Google Cloud Platfrom</strong> using Google
+                    Compute
+                    Engine and Google Cloud SQL to achieve maximum availability.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="data science - data engineer">
+              <a href="./assets/images/project-scraper.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/project-scraper-thumbnail.jpg" alt="web scraper" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Web Crawling/Web Scraping</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Data Engineer</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Developing web scraper to scrape millions of data from various website such as travel agency,
+                    online shopping, news and
+                    social media using <strong>Scrapy (Python)</strong> or <strong>Selenium</strong>. Depending of the
+                    complexity and website
+                    architecture, the program can collect hundreds or even thousands of data per minute while still
+                    respecting source website policy.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="data science - data engineer">
+              <a href="./assets/images/project-twitter.png" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-twitter.png" alt="twitter" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Twitter Analysis</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Data Science</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Data analysis of twitter by looking at the number of tweet related to specific hashtag or query over
+                    time. By looking at the distribution we can conclude whether a social media campaign is successful
+                    or not.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="data science - data engineer">
+              <a href="./assets/images/project-datastudio1.jpg" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/project-datastudio1.jpg" alt="data studio" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">Google Data Studio Visualization</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Data Science</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard of <a
+                      href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93"
+                      target="_blank">Data Center comparation</a> and <a
+                      href="https://datastudio.google.com/reporting/3d1859d0-1bf7-4d86-bc05-bc78588273d9"
+                      target="_blank">Zoom Utilization in
+                      Classroom</a> built using <strong>Google Data Studio</strong>.
+                  </p>
+                </section>
+              </div>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="data science - data engineer">
+              <a href="./assets/images/project-dash.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/project-dash-thumbnail.jpg" alt="dash" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Web Dashboard (Dash Python)</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Data Science</p>
 
               </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard of <a href="https://ecommerce-crawling.herokuapp.com/" target="_blank">E
+                      Commerce Data</a> built using <strong>Dash (Python)</strong>.
+                  </p>
+                </section>
+              </div>
             </li>
 
           </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
 
         </section>
 
@@ -1180,15 +945,11 @@
 
   </main>
 
-
-
-
-
-
   <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script type="module" src="./assets/js/photoswipe.js"></script>
 
   <!--
     - ionicon link
