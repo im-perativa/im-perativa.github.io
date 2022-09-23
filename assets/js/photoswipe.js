@@ -1,5 +1,6 @@
 import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.3.0/dist/photoswipe-lightbox.esm.js';
 import PhotoSwipeDynamicCaption from '/assets/js/photoswipe/photoswipe-dynamic-caption-plugin.esm.js';
+import PhotoSwipeVideoPlugin from '/assets/js/photoswipe/photoswipe-video-plugin.esm.min.js';
 
 const lightbox = new PhotoSwipeLightbox({
     gallerySelector: '#project-list',
@@ -20,5 +21,7 @@ const captionPlugin = new PhotoSwipeDynamicCaption(lightbox, {
     type: 'auto',
     mobileCaptionOverlapRatio: 1,
 });
+
+const videoPlugin = new PhotoSwipeVideoPlugin(lightbox, {});
 
 lightbox.init();
