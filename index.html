@@ -93,7 +93,8 @@
             <div class="contact-info">
               <p class="contact-title">Education</p>
 
-              <a href="" class="contact-link">Computational Statistics</a>
+              <a href="https://stis.ac.id/hal/32/program-studi-div-komputasi-statistik"
+                class="contact-link">Computational Statistics</a>
             </div>
 
           </li>
@@ -241,10 +242,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">System Administrator</h4>
+                <h4 class="h4 service-item-title">Infrastructure Engineer</h4>
 
                 <p class="service-item-text">
-                  Server virtualization, remote computer laboratory, Active Directory integration.
+                  Google cloud infrastructure, server virtualization, backup solution, remote computer
+                  laboratory
                 </p>
               </div>
 
@@ -274,10 +276,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web/Database Administrator</h4>
+                <h4 class="h4 service-item-title">System Administrator</h4>
                 <p class="service-item-text">
-                  Administrator for dozens of web and database hosting with various technology like Apache, Nginx,
-                  MySQL and PostgreSQL.
+                  Administrator for dozens of web and database hosting (Apache, Nginx, MySQL and PostgreSQL) on Linux
+                  and Windows server
                 </p>
               </div>
 
@@ -313,7 +315,7 @@
           <ul class="clients-list has-scrollbar">
 
             <li class="clients-item">
-              <a href="https://https://statistics.coconutcommunity.org/" target="_blank">
+              <a href="https://statistics.coconutcommunity.org/" target="_blank">
                 <img src="./assets/images/client-apccsec.png" alt="International Coconut Community"
                   title="International Coconut Community">
               </a>
@@ -339,7 +341,7 @@
             </li>
 
             <li class="clients-item">
-              <a href="#">
+              <a href="https://pse.litbang.pertanian.go.id/">
                 <img src="./assets/images/client-kementan.png" alt="Ministry of Agriculture Indonesia"
                   title="Ministry of Agriculture Indonesia">
               </a>
@@ -616,6 +618,13 @@
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
+        <section class="about-text">
+          <p>
+            Click to view portfolio description and live demo URL
+          </p>
+        </section>
+
+
         <section class="projects">
 
           <ul class="filter-list">
@@ -623,10 +632,16 @@
               <button class="active" data-filter-btn>All</button>
             </li>
             <li class="filter-item">
-              <button data-filter-btn>Infrastructure Engineer - System Administrator</button>
+              <button data-filter-btn>Infrastructure Engineer</button>
             </li>
             <li class="filter-item">
-              <button data-filter-btn>Data Science - Data Engineer</button>
+              <button data-filter-btn>System Administrator</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Data Engineer</button>
             </li>
             <li class="filter-item">
               <button data-filter-btn>IT Automation</button>
@@ -646,10 +661,16 @@
                 <button data-select-item>All</button>
               </li>
               <li class="select-item">
-                <button data-select-item>Infrastructure Engineer - System Administrator</button>
+                <button data-select-item>Infrastructure Engineer</button>
               </li>
               <li class="select-item">
-                <button data-select-item>Data Science - Data Engineer</button>
+                <button data-select-item>System Administrator</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Data Engineer</button>
               </li>
               <li class="select-item">
                 <button data-select-item>IT Automation</button>
@@ -659,8 +680,7 @@
 
           <ul class="project-list" id="project-list">
 
-            <li class="project-item active" data-filter-item
-              data-category="infrastructure engineer - system administrator">
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
               <a href="./assets/images/project-ovirt.jpg" data-pswp-width="1920" data-pswp-height="1080"
                 target="_blank">
 
@@ -695,8 +715,90 @@
               </div>
             </li>
 
-            <li class="project-item active" data-filter-item
-              data-category="infrastructure engineer - system administrator">
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
+              <a href="./assets/images/project-nlp.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-nlp.gif" alt="nlp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Duplicate Questions Detection System</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Detection of duplicate questions in a Q&A system is challenging especially in Bahasa
+                    Indonesia. The degree of overall similarity of text data in the
+                    form of a question can be seen from the similarity of the frequency of words used (textual
+                    component), the similarity of the word meanings (semantic component) or the similarity of core issue
+                    (topic component).
+                    <br><br>
+                    In this project, I built a new model powered by <strong>Gensim (Python)</strong> which combines the
+                    similarity score for each component above.
+                    Experimental results show that this model get an increase recall-rate for up to <strong>12%</strong>
+                    compared to
+                    their baseline.
+                  </p>
+                </section>
+
+                <a href="https://148261.student.stis.ac.id" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data engineer">
+              <a href="./assets/images/project-scraper.webm" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-scraper.gif" alt="web scraper" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Crawling/Web Scraping</h3>
+
+                <p class="project-category">Data Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Developing web scraper to scrape millions of data from various website such as travel agency,
+                    online shopping, news and
+                    social media using <strong>Scrapy (Python)</strong> or <strong>Selenium</strong>. Depending of the
+                    complexity and website
+                    architecture, the program can collect hundreds or even thousands of data per minute while still
+                    respecting source website policy.
+                  </p>
+                </section>
+                <a href="https://bigdata.stis.ac.id/price-nowcasting-using-crowdsourcing-online-shops-and-instagram/"
+                  target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
               <a href="./assets/images/project-remotelab.jpg" data-pswp-width="1920" data-pswp-height="1080"
                 target="_blank">
 
@@ -729,8 +831,179 @@
               </div>
             </li>
 
-            <li class="project-item active" data-filter-item
-              data-category="infrastructure engineer - system administrator">
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-tableau.mp4" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-tableau.gif" alt="e commerce research" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Visualization with Tableau</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualizing the growth and distribution of E commerce in Indonesia using millions of scraped data of
+                    online shop
+                    website from 2015 to 2019
+                    using <strong>Tableau</strong> and <strong>BigQuery</strong>.
+                  </p>
+
+                </section>
+                <a href="https://public.tableau.com/app/profile/bigdata.stis/viz/distribusionlineshop/ImprovedDashboard"
+                  target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="infrastructure engineer">
+              <a href="./assets/images/project-gcp.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-gcp.jpg" alt="gcp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Hosting on GCP</h3>
+
+                <p class="project-category">Infrastructure Engineer</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Deploy and manage college admission system on <strong>Google Cloud Platfrom</strong> using Google
+                    Compute
+                    Engine and Google Cloud SQL to achieve maximum availability.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-twitter.png" data-pswp-width="1920" data-pswp-height="1080"
+                target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-twitter.png" alt="twitter" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitter Campaign Analysis</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Data analysis of twitter by looking at the number of tweet related to specific hashtag or query over
+                    time. By looking at the distribution we can conclude whether a social media campaign is successful
+                    or not.
+                  </p>
+                </section>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-datastudio.webm" data-pswp-width="1920" data-pswp-height="1080"
+                data-pswp-type="video" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-datastudio.gif" alt="data studio" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Google Data Studio Visualization</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard of <a
+                      href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93"
+                      target="_blank">Data Center comparation</a> and <a
+                      href="https://datastudio.google.com/reporting/3d1859d0-1bf7-4d86-bc05-bc78588273d9"
+                      target="_blank">Zoom Utilization in
+                      Classroom</a> built using <strong>Google Data Studio</strong>.
+                  </p>
+
+                </section>
+                <a href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93" target="_blank"
+                  class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="./assets/images/project-dash.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-dash-thumbnail.jpg" alt="dash" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Dashboard (Dash Python)</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+              <div class="pswp-caption-content">
+                <header>
+                  <h2 class="h2 article-title">Description</h2>
+                </header>
+                <section class="about-text">
+                  <p>
+                    Visualization Dashboard from hundreds of thousands of E Commerce Data built using <strong>Dash
+                      (Python)</strong>.
+                  </p>
+                </section>
+                <a href="https://ecommerce-crawling.herokuapp.com/" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="system administrator">
               <a href="./assets/images/project-virtualmin.jpg" data-pswp-width="1920" data-pswp-height="1080"
                 target="_blank">
 
@@ -761,198 +1034,12 @@
                     provide daily automatic domain backup and SSL configuration for easy web hosting for student and
                     lecturer.
                   </p>
+
                 </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data science - data engineer">
-              <a href="./assets/images/project-tableau.mp4" data-pswp-width="1920" data-pswp-height="1080"
-                data-pswp-type="video" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-tableau.gif" alt="e commerce research" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Data Visualization with Tableau</h3>
-
-                <p class="project-category">Data Science</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Visualizing the growth and distribution of E commerce in Indonesia using millions of scraped data of
-                    online shop
-                    website from 2015 to 2019
-                    using <strong>Tableau</strong> and <strong>BigQuery</strong>.
-                  </p>
-                </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item
-              data-category="infrastructure engineer - system administrator">
-              <a href="./assets/images/project-gcp.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-gcp.jpg" alt="gcp" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Application Hosting on GCP</h3>
-
-                <p class="project-category">Infrastructure Engineer</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Deploy and manage college admission system on <strong>Google Cloud Platfrom</strong> using Google
-                    Compute
-                    Engine and Google Cloud SQL to achieve maximum availability.
-                  </p>
-                </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data science - data engineer">
-              <a href="./assets/images/project-scraper.webm" data-pswp-width="1920" data-pswp-height="1080"
-                data-pswp-type="video" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-scraper.gif" alt="web scraper" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Web Crawling/Web Scraping</h3>
-
-                <p class="project-category">Data Engineer</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Developing web scraper to scrape millions of data from various website such as travel agency,
-                    online shopping, news and
-                    social media using <strong>Scrapy (Python)</strong> or <strong>Selenium</strong>. Depending of the
-                    complexity and website
-                    architecture, the program can collect hundreds or even thousands of data per minute while still
-                    respecting source website policy.
-                  </p>
-                </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data science - data engineer">
-              <a href="./assets/images/project-twitter.png" data-pswp-width="1920" data-pswp-height="1080"
-                target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-twitter.png" alt="twitter" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Twitter Analysis</h3>
-
-                <p class="project-category">Data Science</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Data analysis of twitter by looking at the number of tweet related to specific hashtag or query over
-                    time. By looking at the distribution we can conclude whether a social media campaign is successful
-                    or not.
-                  </p>
-                </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data science - data engineer">
-              <a href="./assets/images/project-datastudio.webm" data-pswp-width="1920" data-pswp-height="1080"
-                data-pswp-type="video" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-datastudio.gif" alt="data studio" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Google Data Studio Visualization</h3>
-
-                <p class="project-category">Data Science</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Visualization Dashboard of <a
-                      href="https://datastudio.google.com/reporting/44b4734d-1c9c-4235-a75a-945005cadd93"
-                      target="_blank">Data Center comparation</a> and <a
-                      href="https://datastudio.google.com/reporting/3d1859d0-1bf7-4d86-bc05-bc78588273d9"
-                      target="_blank">Zoom Utilization in
-                      Classroom</a> built using <strong>Google Data Studio</strong>.
-                  </p>
-                </section>
-              </div>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="data science - data engineer">
-              <a href="./assets/images/project-dash.jpg" data-pswp-width="1920" data-pswp-height="1080" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-dash-thumbnail.jpg" alt="dash" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Web Dashboard (Dash Python)</h3>
-
-                <p class="project-category">Data Science</p>
-
-              </a>
-              <div class="pswp-caption-content">
-                <header>
-                  <h2 class="h2 article-title">Description</h2>
-                </header>
-                <section class="about-text">
-                  <p>
-                    Visualization Dashboard of <a href="https://ecommerce-crawling.herokuapp.com/" target="_blank">E
-                      Commerce Data</a> built using <strong>Dash (Python)</strong>.
-                  </p>
-                </section>
+                <a href="https://student.stis.ac.id" target="_blank" class="form-btn">
+                  <ion-icon name="paper-plane" role="img" class="md hydrated" aria-label="paper plane"></ion-icon>
+                  <span>View</span>
+                </a>
               </div>
             </li>
 

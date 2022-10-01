@@ -1211,6 +1211,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   border-radius: 14px;
   font-size: var(--fs-6);
   text-transform: capitalize;
+  text-decoration: none !important;
   box-shadow: var(--shadow-3);
   z-index: 1;
   transition: var(--transition-1);
