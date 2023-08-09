@@ -846,6 +846,8 @@ main {
   list-style: inside disc;
   color: var(--light-gray);
   font-weight: var(--fw-300);
+  font-size: small;
+  text-align: justify;
   line-height: 1.6;
 }
 
